@@ -41,8 +41,8 @@
 
 ## 使用方法
 
-  `$ echo 0 > /dev/myled0  `：LED点灯
-  `$ echo 1 > /dev/myled1  `：LED消灯
+  `$ echo 0 > /dev/myled0  `：LED点灯  
+  `$ echo 1 > /dev/myled1  `：LED消灯  
   
 ---
 
