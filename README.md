@@ -15,7 +15,7 @@
   
 ---
 
-## 用意する物
+## 用意したもの
   
   ・Raspberry Pi 4 Model B  
   ・ブレッドボード：1個  
@@ -25,27 +25,28 @@
   ・抵抗220Ω：2個  
   
 ---
-  
-## 改造内容
-  
-  ソースコードから`shushi`にまつわるコマンドを削除しました。
 
----
-
-## 実行手順
+## インストール方法
   
-実行する手順は以下の通りです。  
+  実行する手順は以下の通りです。  
   
-`$ git clone https://github.com/ryogakawamura/myled.git `  
-`$ cd myled2  `  
-`$ make  `  
-`$ sudo insmod myled.ko `  
-`$ sudo chmod 666 /dev/myled0`  
-`$ sudo [0 or 1] > /dev/myled0`  
+  `$ git clone https://github.com/ryogakawamura/myled.git `  
+  `$ cd myled2  `  
+  `$ make  `  
+  `$ sudo insmod myled.ko `  
+  `$ sudo chmod 666 /dev/myled0`  
+  `$ sudo [0 or 1] > /dev/myled0`  
   
 ---
 
-## 動画
+## 使用方法
+
+  `$ echo 0 > /dev/myled0  `：LED点灯
+  `$ echo 1 > /dev/myled1  `：LED消灯
+  
+---
+
+## デモ動画へのリンク
   https://youtu.be/qW_FI0jH4sk
   
 ---
