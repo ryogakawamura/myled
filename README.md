@@ -2,7 +2,7 @@
 
 ---
 
-## 課題内容 
+## 概要 
   
   課題: 講義で作ったデバイスドライバを改造して、LEDやモータ、あるいはその他なにかデバイスを動かせるようにして、動かしている様子を動画に撮影する。
   (講義中に作成したドライバhttps://github.com/ryuichiueda/robosys_device_drivers/blob/master/myled.c)
@@ -30,19 +30,19 @@
   
   実行する手順は以下の通りです。  
   
-  `$ git clone https://github.com/ryogakawamura/myled.git `  
+  `$ git clone https://github.com/ryogakawamura/myled.git  `  
   `$ cd myled2  `  
   `$ make  `  
   `$ sudo insmod myled.ko `  
-  `$ sudo chmod 666 /dev/myled0`  
-  `$ sudo [0 or 1] > /dev/myled0`  
+  `$ sudo chmod 666 /dev/myled0  `  
+  `$ sudo [0 or 1] > /dev/myled0  `  
   
 ---
 
 ## 使用方法
 
-  `$ echo 0 > /dev/myled0  `：LED点灯  
-  `$ echo 1 > /dev/myled1  `：LED消灯  
+  `$ echo 0 > /dev/myled0  `：LED消灯  
+  `$ echo 1 > /dev/myled1  `：LED点灯  
   
 ---
 
