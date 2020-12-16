@@ -31,7 +31,7 @@
   実行する手順は以下の通りです。  
   
   `$ git clone https://github.com/ryogakawamura/myled.git  `  
-  `$ cd myled2  `  
+  `$ cd myled  `  
   `$ make  `  
   `$ sudo insmod myled.ko `  
   `$ sudo chmod 666 /dev/myled0  `  
