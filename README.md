@@ -27,7 +27,7 @@
   
 ## 改造内容
   
-  `$ echo 0 > /dev/myled0` : LEDの消灯
+  `$ echo 0 > /dev/myled0` : LEDの消灯  
   `$ echo 1 > /dev/myled0` : LEDの点灯  
   
 ## 実行手順
