@@ -54,7 +54,6 @@
 
 ## ライセンス
   
-  [GNU General Public License v3.0]
-  (https://github.com/ryogakawamura/myled/blob/main/COPYING)
+  [GNU General Public License v3.0](https://github.com/ryogakawamura/myled/blob/main/COPYING)
 
 ---
