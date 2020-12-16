@@ -30,6 +30,8 @@
   `$ echo 0 > /dev/myled0` : LEDの消灯  
   `$ echo 1 > /dev/myled0` : LEDの点灯  
   
+---
+
 ## 実行手順
   
 実行する手順は以下の通りです。  
@@ -45,6 +47,7 @@
 
 ## 動画
   https://youtu.be/qW_FI0jH4sk
+  
 ---
 
 ## ライセンス
