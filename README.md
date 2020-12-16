@@ -17,7 +17,7 @@
 
 ## 用意したもの
   
-  ・Raspberry Pi 4 Model B  
+  ・Raspberry Pi 4 Model B：1台  
   ・ブレッドボード：1個  
   ・青色LED：1個  
   ・ジャンパー線(M-M)：1本  
