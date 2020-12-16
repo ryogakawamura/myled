@@ -47,11 +47,13 @@
 ---
 
 ## デモ動画へのリンク
+  
   https://youtu.be/qW_FI0jH4sk
   
 ---
 
 ## ライセンス
-  https://github.com/ryogakawamura/myled/blob/main/COPYING
+  
+  GNU General Public License v3.0
 
 ---
