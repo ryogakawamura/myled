@@ -12,6 +12,8 @@
 ## 動作環境
   
 ・Ubuntu 18.04  
+・Raspberry Pi 4 Model B  
+(GPIOピンは25番とGNDを使用)  
   
 ---
 
