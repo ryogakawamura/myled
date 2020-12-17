@@ -28,6 +28,12 @@
   
 ---
 
+## デモ動画へのリンク
+  
+  https://youtu.be/qW_FI0jH4sk
+  
+---
+
 ## インストール方法
   
   実行する手順は以下の通りです。  
@@ -45,12 +51,6 @@
 
   `$ echo 0 > /dev/myled0  `：LED消灯  
   `$ echo 1 > /dev/myled1  `：LED点灯  
-  
----
-
-## デモ動画へのリンク
-  
-  https://youtu.be/qW_FI0jH4sk
   
 ---
 
